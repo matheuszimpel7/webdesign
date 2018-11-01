@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="icon" type="image/png" href="https://www.selectron.bm/wp-content/uploads/2017/07/Total-Connect-Icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <!--Material icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Script Drop-Down-->
+  <script src="JS/main.js"></script>
+
+  <title>GMM Controller.</title>
+</head>
+
+<body class="corpo">
+
+  <script src="JS/main.js"></script>
+
+  <header>
+    <!--Logo-->
+    <div class="logo">
+      <li class="material-icons" style="font-size: 30px;">network_check</li>
+      <h3>Network controller</h3>
+    </div>
+  </header>
+
+  <div class="colunas">
+
+    <!--Conteúdo da página-->
+    <main>
+      <input type="text" placeholder="Pesquisa de log">
+      <table>
+        <tr>
+          <th>Endereço MAC</th>
+          <th>IP's da Rede</th>
+          <th>Velocidade</th>
+        </tr>
+        <tr>
+          <td>84:7b:eb:fd:fc:07</td>
+          <td>192.168.0.1</td>
+          <td>20.5 mbps</td>
+        </tr>
+        <tr>
+          <td>84:7b:eb:fd:fc:08</td>
+          <td>192.168.0.2</td>
+          <td>10.2 mbps</td>
+        </tr>
+        <tr>
+          <td>84:7b:eb:fd:fc:09</td>
+          <td>192.168.0.3</td>
+          <td>100.4 mbps</td>
+        </tr>
+        <tr>
+          <td>84:7b:eb:fd:fc:10</td>
+          <td>192.168.0.4</td>
+          <td>17.2 mpbs</td>
+        </tr>
+        <tr>
+          <td>84:7b:eb:fd:fc:11</td>
+          <td>192.168.0.5</td>
+          <td>2.5 mbps</td>
+        </tr>
+        <tr>
+          <td>84:7b:eb:fd:fc:12</td>
+          <td>192.168.0.6</td>
+          <td>8.3 mbps</td>
+        </tr>
+      </table>
+
+      <div class="dropbtns">
+        <div class="dropdown2">
+          <button onclick="myFunction2()" class="dropbtn2">Interfaces</button>
+          <div id="myDropdown2" class="dropdown-content2">
+            <a href="#">CAMADA 1</a>
+            <a href="#">CAMADA 2</a>
+            <a href="#">CAMADA 3</a>
+          </div>
+        </div>
+
+        <div class="dropdown3">
+          <button onclick="myFunction3()" class="dropbtn3">NAT</button>
+          <div id="myDropdown3" class="dropdown-content3">
+            <a href="#">Ether 1</a>
+            <a href="#">Ether 2</a>
+            <a href="#">Ether 3</a>
+          </div>
+        </div>
+
+        <div class="dropdown4">
+          <button onclick="myFunction4()" class="dropbtn4">DHCP</button>
+          <div id="myDropdown4" class="dropdown-content4">
+            <a href="#">IP's</a>
+            <a href="#">Faixas</a>
+            <a href="#">Sets</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Estrutura de navegação-->
+    <nav>
+      <div class="nav-center">
+        <ul>
+          <tr>
+            <td><a href="">
+                <li class="material-icons" style="font-size: 30px;">settings</li>
+              </a></td>
+            <td><a href="">
+                <li class="material-icons" style="font-size: 30px;">add</li>
+              </a></td>
+            <td><a href="">
+                <li class="material-icons" style="font-size: 30px;">backup</li>
+              </a></td>
+            <td><a href="">
+                <li class="material-icons" style="font-size: 30px;">dashboard</li>
+              </a></td>
+            <td><a href="">
+                <li class="material-icons" style="font-size: 30px;">explore</li>
+              </a></td>
+          </tr>
+        </ul>
+      </div>
+    </nav>
+
+    <aside>
+      <button class="btn-aside">teste</button>
+      <button class="btn-aside">Pacotes</button>
+      <button class="btn-aside">Rotas</button>
+      <button class="btn-aside">Infraestrutura</button>
+      <button class="btn-aside">Modelagem</button>
+      <button class="btn-aside">Leases</button>
+      <button class="btn-aside">Firewall</button>
+      <button class="btn-aside">Proxy</button>
+      <button class="btn-aside">Servers</button>
+      <button class="btn-aside">Conexão</button>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="footer-div">
+      <ul class="footer-ul">
+        <li>&copy Gerson Pereira</li>
+        <li>&copy Matheus Henrique</li>
+        <li>&copy Matheus Victor</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
